@@ -170,6 +170,15 @@
   }
 }
 @layer utilities {
+  .relative {
+    position: relative;
+  }
+  .z-1 {
+    z-index: 1;
+  }
+  .z-10 {
+    z-index: 10;
+  }
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
   }
